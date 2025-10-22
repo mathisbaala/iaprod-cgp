@@ -213,16 +213,16 @@ export default function Home() {
               </p>
               
               <p className="text-navy/70 mb-4 text-sm leading-relaxed">
-                Un atelier d&apos;initiation conçu pour comprendre le potentiel réel de l&apos;intelligence artificielle appliquée au métier de conseiller.
-                En quatre heures, vous testez des cas d&apos;usage pratiques : génération automatique de comptes rendus, synthèses clients, veille réglementaire.
+                Une demi-journée pour comprendre comment l&apos;IA peut vous assister dans vos tâches quotidiennes.
+                Des démonstrations simples et des cas d&apos;usage appliqués à votre activité.
               </p>
               
               <div className="bg-light-gray p-4 rounded-lg">
                 <p className="text-xs font-semibold text-navy mb-2">Résultats :</p>
                 <ul className="text-xs text-navy/80 space-y-1">
-                  <li>• Identifier les tâches automatisables</li>
-                  <li>• Comprendre les outils IA disponibles</li>
-                  <li>• Réflexes immédiatement applicables</li>
+                  <li>• Identifier les usages pertinents de l&apos;IA</li>
+                  <li>• Comprendre les outils adaptés à votre métier</li>
+                  <li>• Gagner en efficacité dès le lendemain</li>
                 </ul>
               </div>
             </div>
@@ -234,20 +234,20 @@ export default function Home() {
               <p className="text-gold font-semibold mb-4">1 journée</p>
               
               <p className="text-navy font-semibold mb-3 text-sm">
-                Maîtriser les outils et automatiser vos processus récurrents.
+                Automatiser, structurer, gagner du temps.
               </p>
               
               <p className="text-navy/70 mb-4 text-sm leading-relaxed">
-                Une journée complète pour intégrer efficacement l&apos;IA dans votre organisation.
-                À travers des exercices personnalisés, vous apprendrez à automatiser la rédaction, la veille et la gestion documentaire, sans modifier vos outils existants.
+                Une journée pour apprendre à utiliser l&apos;IA dans vos outils quotidiens (mails, bilans, documents).
+                Des méthodes concrètes pour déléguer les tâches répétitives et fiabiliser vos analyses.
               </p>
               
               <div className="bg-light-gray p-4 rounded-lg">
                 <p className="text-xs font-semibold text-navy mb-2">Résultats :</p>
                 <ul className="text-xs text-navy/80 space-y-1">
-                  <li>• Gagner jusqu&apos;à 7h/semaine</li>
-                  <li>• Structurer vos échanges et documents</li>
-                  <li>• Améliorer vos livrables clients</li>
+                  <li>• Gagner jusqu&apos;à 7h par semaine</li>
+                  <li>• Améliorer la qualité de vos livrables</li>
+                  <li>• Libérer du temps pour vos clients</li>
                 </ul>
               </div>
             </div>
@@ -259,20 +259,20 @@ export default function Home() {
               <p className="text-gold font-semibold mb-4">2 jours</p>
               
               <p className="text-navy font-semibold mb-3 text-sm">
-                Construire votre propre environnement IA professionnel.
+                Construire vos propres workflows IA.
               </p>
               
               <p className="text-navy/70 mb-4 text-sm leading-relaxed">
-                Une formation avancée pour concevoir des workflows IA adaptés à votre cabinet :
-                rédaction standardisée, suivi client automatisé, analyse documentaire et veille intelligente.
+                Deux jours pour concevoir un environnement IA sur mesure pour votre cabinet.
+                Des exercices pratiques pour standardiser vos processus et sécuriser vos données.
               </p>
               
               <div className="bg-light-gray p-4 rounded-lg">
                 <p className="text-xs font-semibold text-navy mb-2">Résultats :</p>
                 <ul className="text-xs text-navy/80 space-y-1">
-                  <li>• Créer vos propres modèles IA</li>
-                  <li>• Sécuriser vos données (RGPD)</li>
-                  <li>• Levier durable d&apos;efficacité</li>
+                  <li>• Créer vos modèles IA personnalisés</li>
+                  <li>• Sécuriser l&apos;usage de vos données (RGPD)</li>
+                  <li>• Faire de l&apos;IA un levier durable d&apos;efficacité</li>
                 </ul>
               </div>
             </div>
