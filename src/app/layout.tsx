@@ -3,8 +3,6 @@ import { Poppins, Inter } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import { ScrollProgress } from '@/components/ScrollProgress'
-import { ScrollToTop } from '@/components/ScrollToTop'
 
 const poppins = Poppins({
   weight: ['400', '600', '700'],
@@ -40,11 +38,9 @@ export default function RootLayout({
   return (
     <html lang="fr" className={`${poppins.variable} ${inter.variable}`}>
       <body className="antialiased">
-        <ScrollProgress />
         <Header />
         <main>{children}</main>
         <Footer />
-        <ScrollToTop />
       </body>
     </html>
   )

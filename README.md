@@ -1,10 +1,10 @@
-# IAprod - Landing Page pour Conseillers en Gestion de Patrimoine
+# IAprod - Site Web Professionnel
 
-Landing page professionnelle pour le programme de formation à l'intelligence artificielle destiné aux conseillers en gestion de patrimoine (CGP).
+Site web professionnel pour IAprod, spécialisé dans l'intelligence artificielle appliquée à la finance.
 
 ## 🎯 Objectif
 
-Former les conseillers d'aujourd'hui aux outils de demain. L'intelligence artificielle au service du conseil patrimonial.
+L'intelligence artificielle au service de la performance financière. Former, diagnostiquer, construire.
 
 ## 🚀 Technologies
 
@@ -12,8 +12,7 @@ Former les conseillers d'aujourd'hui aux outils de demain. L'intelligence artifi
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **Fonts**: Poppins (titres), Inter (texte)
+- **Fonts**: Inter (principal), Poppins (secondaire)
 
 ## 📦 Installation
 
@@ -29,53 +28,51 @@ npm run dev
 
 ## 🎨 Palette de couleurs
 
-- **Bleu nuit**: `#1C2A43`
-- **Doré**: `#E4C17A`
-- **Gris clair**: `#F8F9FB`
-- **Blanc pur**: `#FFFFFF`
+- **Bleu nuit**: `#0B1222` (--night)
+- **Doré sombre**: `#B08D57` (--gold)
+- **Encre**: `#1d2540` (--ink)
+- **Nuage**: `#F6F7F8` (--cloud)
+- **Papier**: `#FAFAFA` (--paper)
+- **Panneau**: `#F4F4F4` (--panel)
 
 ## 📁 Structure du projet
 
 ```
-iaprod-cgp/
+iaprod/
 ├── src/
 │   ├── app/
-│   │   ├── layout.tsx       # Layout global avec Header/Footer
-│   │   ├── page.tsx         # Page principale
-│   │   └── globals.css      # Styles globaux
+│   │   ├── layout.tsx           # Layout global
+│   │   ├── page.tsx             # Page d'accueil
+│   │   ├── globals.css          # Styles globaux
+│   │   ├── contact/
+│   │   │   └── page.tsx         # Page formulaire contact
+│   │   └── sections/
+│   │       ├── Solutions.tsx    # 3 piliers (Formation, Audit, Outils)
+│   │       ├── Resultats.tsx    # Résultats concrets (4 cartes)
+│   │       ├── Offres.tsx       # 3 formats de formation
+│   │       ├── Equipe.tsx       # Présentation équipe
+│   │       └── ContactPanel.tsx # Section contact (3 cartes)
 │   └── components/
-│       ├── Header.tsx       # Header sticky
-│       ├── Footer.tsx       # Footer minimaliste
-│       ├── Section.tsx      # Section avec animations
-│       ├── CTA.tsx          # Boutons d'appel à l'action
-│       └── ScrollProgress.tsx # Barre de progression
+│       ├── Header.tsx           # Navigation
+│       └── Footer.tsx           # Footer
 ├── public/
-│   └── images/              # Images (hero, workshop, etc.)
+│   ├── images/                  # Photos équipe + workshop
+│   └── robots.txt
 └── ...config files
 ```
 
-## 📸 Images requises
+## 🎯 Sections du site
 
-Ajoutez les images suivantes dans `/public/images/` :
+1. **Hero** - Message principal avec photo workshop
+2. **Solutions** - 3 piliers : Formation / Audit & Conseil / Outils IA sur mesure
+3. **Résultats** - 4 bénéfices concrets
+4. **Offres** - 3 formats de formation (½ jour, 1 jour, 2 jours)
+5. **Équipe** - Présentation de l'équipe (ingénierie + finance)
+6. **Contact** - 3 moyens de contact (email, téléphone, LinkedIn)
 
-- `hero_cgp.jpg` - Photo professionnelle d'un conseiller ou équipe
-- `workshop.jpg` - Atelier de formation
-- `team.jpg` - Équipe d'experts
-- `documents.jpg` - Documents/workspace professionnel
+## 📧 Contact
 
-Voir `/public/images/README.md` pour les spécifications détaillées.
-
-## 🎯 Sections de la landing page
-
-1. **Hero** - Présentation du projet avec CTA principal
-2. **Reprendre le contrôle sur son temps** - Gains de productivité
-3. **Rendre l'information exploitable** - Base de connaissances
-4. **Renforcer la rigueur et la conformité** - Standards et RGPD
-5. **Personnaliser la communication client** - Communication personnalisée
-6. **Gagner en vision et en agilité** - Veille et stratégie
-7. **Pourquoi choisir IAprod** - Expertise et crédibilité
-8. **Formats & inscription** - Ateliers et formations
-9. **Conclusion** - Appel à l'action final
+Email unique : baala.mathis@gmail.com
 
 ## 🚢 Déploiement
 
@@ -89,31 +86,15 @@ npm start
 
 ### Déploiement sur Vercel
 
-```bash
-# Installer Vercel CLI
-npm i -g vercel
-
-# Déployer
-vercel
-```
-
-Ou connectez votre repository GitHub à Vercel pour un déploiement automatique.
-
-## ♿ Accessibilité
-
-- Structure sémantique HTML5
-- Contraste WCAG AA+
-- Focus visible pour la navigation au clavier
-- Images avec attributs alt
-- Labels ARIA appropriés
+Connectez votre repository GitHub à Vercel pour un déploiement automatique.
 
 ## 📱 Responsive
 
 - Mobile-first design
-- Breakpoints: mobile (< 768px), tablet (768px-1024px), desktop (> 1024px)
-- CTA sticky sur mobile
+- Navigation hamburger sur mobile
+- Grilles adaptatives
 - Images optimisées avec next/image
 
 ## 📄 Licence
 
-© 2024 IAprod. Tous droits réservés.
+© 2025 IAprod. Tous droits réservés.

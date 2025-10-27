@@ -8,9 +8,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'navy': '#1C2A43',
-        'gold': '#E4C17A',
-        'light-gray': '#F8F9FB',
+        'night': '#0B1222',
+        'gold': '#B08D57',
+        'ink': '#1d2540',
+        'cloud': '#F6F7F8',
+        'paper': '#FAFAFA',
+        'panel': '#F4F4F4',
+        'navy': '#0E1E3A',
+        'off-white': '#FAFAFA',
       },
       fontFamily: {
         poppins: ['var(--font-poppins)', 'sans-serif'],

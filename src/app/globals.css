@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --navy: #1C2A43;
-  --gold: #E4C17A;
-  --light-gray: #F8F9FB;
+  --night: #0B1222;
+  --gold: #B08D57;
+  --ink: #1d2540;
+  --cloud: #F6F7F8;
+  --paper: #FAFAFA;
+  --panel: #F4F4F4;
+  --navy: #0E1E3A;
 }
 
 * {
@@ -16,12 +20,15 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Account for fixed header */
 }
 
 body {
-  color: var(--navy);
+  color: var(--ink);
   background: white;
   font-family: var(--font-inter), sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,16 +74,16 @@ h1, h2, h3, h4, h5, h6 {
 .hero-overlay {
   background: linear-gradient(
     135deg,
-    rgba(28, 42, 67, 0.85) 0%,
-    rgba(28, 42, 67, 0.75) 50%,
-    rgba(228, 193, 122, 0.3) 100%
+    rgba(11, 18, 34, 0.85) 0%,
+    rgba(11, 18, 34, 0.75) 50%,
+    rgba(176, 141, 87, 0.2) 100%
   );
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
 }
 
-/* Hero image blur */
+/* Hero image blur and darken */
 .hero-image-blur {
-  filter: blur(3px);
-  transform: scale(1.05);
+  filter: blur(8px) brightness(0.4);
+  transform: scale(1.1);
 }
