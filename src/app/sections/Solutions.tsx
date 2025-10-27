@@ -115,9 +115,18 @@ export default function Solutions() {
 
         {/* Bottom tagline */}
         <div className="mt-12 text-center">
-          <p className="text-sm text-[var(--ink)]/50 italic max-w-2xl mx-auto">
+          <p className="text-sm text-[var(--ink)]/50 italic max-w-2xl mx-auto mb-6">
             Une démarche structurée à chaque étape : formation, diagnostic, intégration.
           </p>
+          <Link
+            href="/solutions"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--gold)] hover:bg-[var(--gold)]/90 text-white font-medium rounded-lg transition-all duration-200 text-sm"
+          >
+            Voir toutes nos solutions en détail
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
         </div>
       </div>
     </section>

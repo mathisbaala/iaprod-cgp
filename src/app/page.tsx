@@ -57,7 +57,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           >
             <Link
-              href="/#solutions"
+              href="/solutions"
               className="px-8 py-3 bg-[var(--gold)] hover:bg-[var(--gold)]/90 text-white font-medium rounded-lg transition-all duration-300 shadow-lg"
               aria-label="Découvrir nos solutions"
             >
