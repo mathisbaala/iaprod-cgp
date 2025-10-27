@@ -6,12 +6,12 @@ export default function Equipe() {
   const membres = [
     {
       nom: "Mathis",
-      formation: "HEC Paris",
+      formation: "École Polytechnique • HEC Paris",
       photo: "/images/baala.jpg",
     },
     {
       nom: "Thomas",
-      formation: "École Polytechnique",
+      formation: "École Polytechnique • HEC Paris",
       photo: "/images/thomas.jpeg",
     },
     {
