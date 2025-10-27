@@ -18,15 +18,22 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'IAprod – Formation IA pour Conseillers en Gestion de Patrimoine',
-  description: 'Former les conseillers d\'aujourd\'hui aux outils de demain. L\'intelligence artificielle au service du conseil patrimonial.',
-  keywords: 'formation IA, conseillers patrimoine, CGP, intelligence artificielle, productivité, formation professionnelle',
+  title: 'IAprod – L\'IA au service de la performance financière',
+  description: 'Former, diagnostiquer, construire. Solutions IA pour les professionnels de la gestion, finance et investissement.',
+  keywords: 'formation IA, intelligence artificielle, finance, gestion patrimoniale, audit IA, outils IA, productivité financière',
   authors: [{ name: 'IAprod' }],
   openGraph: {
-    title: 'IAprod – Formation IA pour Conseillers en Gestion de Patrimoine',
-    description: 'Former les conseillers d\'aujourd\'hui aux outils de demain. L\'intelligence artificielle au service du conseil patrimonial.',
+    title: 'IAprod – L\'IA au service de la performance financière',
+    description: 'Former, diagnostiquer, construire. Solutions IA pour les professionnels de la gestion, finance et investissement.',
     type: 'website',
     locale: 'fr_FR',
+    url: 'https://iaprod.vercel.app',
+    siteName: 'IAprod',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'IAprod – L\'IA au service de la performance financière',
+    description: 'Former, diagnostiquer, construire. Solutions IA pour les professionnels de la finance.',
   },
 }
 
