@@ -118,15 +118,26 @@ export default function Solutions() {
           <p className="text-sm text-[var(--ink)]/50 italic max-w-2xl mx-auto mb-6">
             Une démarche structurée à chaque étape : formation, diagnostic, intégration.
           </p>
-          <Link
-            href="/solutions"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--gold)] hover:bg-[var(--gold)]/90 text-white font-medium rounded-lg transition-all duration-200 text-sm"
-          >
-            Voir toutes nos solutions en détail
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/solutions"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[var(--gold)] hover:bg-[var(--gold)]/90 text-white font-medium rounded-lg transition-all duration-200 text-sm"
+            >
+              Voir toutes nos solutions en détail
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+            <Link
+              href="/resultats"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-transparent border border-[var(--gold)]/30 hover:bg-[var(--panel)] text-[var(--ink)] font-medium rounded-lg transition-all duration-200 text-sm"
+            >
+              Découvrir les résultats concrets
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+              </svg>
+            </Link>
+          </div>
         </div>
       </div>
     </section>
