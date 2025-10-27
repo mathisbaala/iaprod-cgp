@@ -147,12 +147,10 @@ export default function ResultatsPage() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-semibold text-[var(--night)] mb-4">
-              Résultats des formations IAprod
+              Résultats Formation
             </h2>
             <p className="text-lg text-[var(--ink)]/70 leading-relaxed max-w-3xl mx-auto">
               Former vos équipes à l'IA, c'est leur redonner de la méthode et de la sérénité.
-              <br />
-              Chaque session IAprod transforme le quotidien des professionnels de la finance.
             </p>
           </motion.div>
 
@@ -160,18 +158,15 @@ export default function ResultatsPage() {
             {[
               {
                 titre: "+6h / semaine",
-                description: "gagnées sur la production de comptes rendus et reporting.",
-                icon: "⏱"
+                description: "gagnées sur la production de comptes rendus et reporting."
               },
               {
                 titre: "Équipes autonomes",
-                description: "capables d'utiliser les bons outils IA au quotidien.",
-                icon: "🎯"
+                description: "capables d'utiliser les bons outils IA au quotidien."
               },
               {
                 titre: "Livrables homogènes",
-                description: "et une communication plus fluide avec les clients.",
-                icon: "📊"
+                description: "et une communication plus fluide avec les clients."
               }
             ].map((item, index) => (
               <motion.div
@@ -182,7 +177,6 @@ export default function ResultatsPage() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
               >
-                <div className="text-3xl mb-4">{item.icon}</div>
                 <h3 className="text-xl font-semibold text-[var(--night)] mb-3">
                   {item.titre}
                 </h3>
@@ -227,11 +221,9 @@ export default function ResultatsPage() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-semibold mb-4">
-              Résultats de nos audits et missions de conseil
+              Résultats Audit & Conseil
             </h2>
             <p className="text-lg text-white/80 leading-relaxed max-w-3xl mx-auto">
-              Diagnostiquer, c'est d'abord clarifier.
-              <br />
               Nos audits révèlent les pertes de temps invisibles et les transforment en leviers d'efficacité.
             </p>
           </motion.div>
@@ -240,18 +232,15 @@ export default function ResultatsPage() {
             {[
               {
                 titre: "Process simplifiés",
-                description: "et cartographiés, avec plan d'action clair et actionnable.",
-                icon: "📋"
+                description: "et cartographiés, avec plan d'action clair et actionnable."
               },
               {
                 titre: "Déploiement IA ciblé",
-                description: "uniquement là où la valeur est mesurable et l'impact réel.",
-                icon: "🎯"
+                description: "uniquement là où la valeur est mesurable et l'impact réel."
               },
               {
                 titre: "+30% d'efficacité",
-                description: "sur les process internes après optimisation.",
-                icon: "📈"
+                description: "sur les process internes après optimisation."
               }
             ].map((item, index) => (
               <motion.div
@@ -262,7 +251,6 @@ export default function ResultatsPage() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
               >
-                <div className="text-3xl mb-4">{item.icon}</div>
                 <h3 className="text-xl font-semibold mb-3">
                   {item.titre}
                 </h3>
@@ -307,12 +295,10 @@ export default function ResultatsPage() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-semibold text-[var(--night)] mb-4">
-              Résultats des outils IA sur mesure
+              Résultats Outils IA sur mesure
             </h2>
             <p className="text-lg text-[var(--ink)]/70 leading-relaxed max-w-3xl mx-auto">
-              Chaque outil IAprod est conçu pour s'intégrer sans friction et apporter un bénéfice immédiat.
-              <br />
-              Résultat : moins d'administratif, plus d'action.
+              Chaque outil s'intègre sans friction et apporte un bénéfice immédiat.
             </p>
           </motion.div>
 
@@ -320,18 +306,15 @@ export default function ResultatsPage() {
             {[
               {
                 titre: "Reporting automatisé",
-                description: "à 100%, sans perte de contrôle sur vos données.",
-                icon: "📊"
+                description: "à 100%, sans perte de contrôle sur vos données."
               },
               {
                 titre: "Zéro ressaisie",
-                description: "grâce aux connecteurs IA internes et aux automatisations.",
-                icon: "⚡"
+                description: "grâce aux connecteurs IA internes et aux automatisations."
               },
               {
                 titre: "Alertes intelligentes",
-                description: "pour détecter les anomalies en temps réel et anticiper.",
-                icon: "🔔"
+                description: "pour détecter les anomalies en temps réel et anticiper."
               }
             ].map((item, index) => (
               <motion.div
@@ -342,7 +325,6 @@ export default function ResultatsPage() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
               >
-                <div className="text-3xl mb-4">{item.icon}</div>
                 <h3 className="text-xl font-semibold text-[var(--gold)] mb-3">
                   {item.titre}
                 </h3>
@@ -386,7 +368,7 @@ export default function ResultatsPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            Et si vos équipes gagnaient dès la première semaine ?
+            Prêt à gagner dès la première semaine ?
           </motion.h2>
           <motion.p
             className="text-lg text-white/80 mb-10 leading-relaxed max-w-2xl mx-auto"
@@ -395,8 +377,7 @@ export default function ResultatsPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            IAprod, c'est une méthode éprouvée : compréhension, diagnostic, implémentation.
-            <br />
+            Une méthode éprouvée : compréhension, diagnostic, implémentation.
             Des résultats rapides, mesurables, durables.
           </motion.p>
           <motion.div

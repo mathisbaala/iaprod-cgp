@@ -19,7 +19,7 @@ export default function SolutionsPage() {
             className="text-4xl md:text-5xl font-semibold mb-6"
             {...fadeInUp}
           >
-            Nos Solutions IA pour la finance et le patrimoine
+            Nos Solutions IA
           </motion.h1>
           <motion.p
             className="text-lg md:text-xl text-white/80 mb-10 leading-relaxed"
@@ -27,7 +27,7 @@ export default function SolutionsPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
           >
-            Une approche complète : former vos équipes, diagnostiquer vos besoins, et construire vos outils IA sur mesure.
+            Former vos équipes, diagnostiquer vos besoins, construire vos outils IA sur mesure.
           </motion.p>
           <motion.div
             className="flex flex-col sm:flex-row gap-4 justify-center"
@@ -71,9 +71,7 @@ export default function SolutionsPage() {
                 Formation
               </h2>
               <p className="text-lg text-[var(--ink)]/80 mb-6 leading-relaxed">
-                Comprendre, apprendre, appliquer.
-                <br />
-                Des ateliers concrets pour maîtriser l'usage de l'IA dans votre quotidien financier.
+                Comprendre, apprendre, appliquer. Des ateliers concrets pour maîtriser l'usage de l'IA dans votre quotidien.
               </p>
             </motion.div>
 
@@ -176,9 +174,7 @@ export default function SolutionsPage() {
                 Audit & Conseil
               </h2>
               <p className="text-lg text-white/80 mb-6 leading-relaxed">
-                Diagnostiquer, prioriser, optimiser.
-                <br />
-                Un état des lieux précis de vos process pour identifier les leviers IA à fort impact.
+                Diagnostiquer, prioriser, optimiser. Un état des lieux précis pour identifier les leviers IA à fort impact.
               </p>
             </motion.div>
           </div>
@@ -263,7 +259,7 @@ export default function SolutionsPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            Vous souhaitez transformer votre quotidien avec l'IA ?
+            Prêt à transformer votre quotidien avec l'IA ?
           </motion.h2>
           <motion.p
             className="text-lg text-white/80 mb-10 leading-relaxed max-w-2xl mx-auto"
@@ -272,7 +268,7 @@ export default function SolutionsPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Parlons-en ensemble. Nous adaptons chaque solution à vos besoins et à votre métier.
+            Nous adaptons chaque solution à vos besoins et à votre métier.
           </motion.p>
           <motion.div
             className="flex flex-col sm:flex-row gap-4 justify-center"

@@ -64,15 +64,8 @@ export default function Home() {
               Découvrir nos solutions
             </Link>
             <Link
-              href="/resultats"
-              className="px-8 py-3 bg-white/10 backdrop-blur-sm text-white font-medium rounded-lg hover:bg-white/20 transition-all duration-300 border border-white/20"
-              aria-label="Voir nos résultats"
-            >
-              Voir nos résultats
-            </Link>
-            <Link
               href="/contact?topic=audit"
-              className="px-8 py-3 bg-transparent backdrop-blur-sm text-white font-medium rounded-lg hover:bg-white/10 transition-all duration-300 border border-white/20"
+              className="px-8 py-3 bg-white/10 backdrop-blur-sm text-white font-medium rounded-lg hover:bg-white/20 transition-all duration-300 border border-white/20"
               aria-label="Demander un audit personnalisé"
             >
               Demander un audit
