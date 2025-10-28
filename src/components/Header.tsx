@@ -21,7 +21,7 @@ export function Header() {
     { href: '/solutions', label: 'Solutions' },
     { href: '/resultats', label: 'Résultats' },
     { href: '/offres', label: 'Offres' },
-    { href: '/#equipe', label: 'Équipe' },
+    { href: '/equipe', label: 'Équipe' },
     { href: '/#contact', label: 'Contact' },
   ]
 
@@ -64,12 +64,12 @@ export function Header() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <a
-              href="#contact"
+            <Link
+              href="/contact"
               className="inline-flex items-center px-6 py-2.5 text-sm font-medium text-navy bg-gold hover:bg-gold/90 rounded-md transition-all duration-300"
             >
               Nous contacter
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -111,13 +111,13 @@ export function Header() {
                   {link.label}
                 </a>
               ))}
-              <a
-                href="#contact"
+              <Link
+                href="/contact"
                 className="mx-4 mt-2 inline-flex items-center justify-center px-6 py-2.5 text-sm font-medium text-navy bg-gold hover:bg-gold/90 rounded-md transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Nous contacter
-              </a>
+              </Link>
             </nav>
           </motion.div>
         )}

@@ -17,7 +17,7 @@ export default function OffresPage() {
     {
       titre: "Atelier Découverte",
       duree: "½ journée",
-      pitch: "Comprendre les usages concrets de l'IA. Identifier les bons cas d'usage. Gagner en efficacité dès le lendemain.",
+      pitch: "Comprendre les usages concrets de l'IA.\nIdentifier les bons cas d'usage.\nGagner en efficacité dès le lendemain.",
       resultats: [
         "Identifier les cas d'usage pertinents",
         "Maîtriser les prompts essentiels",
@@ -29,7 +29,7 @@ export default function OffresPage() {
     {
       titre: "IA & Productivité",
       duree: "1 journée",
-      pitch: "Accélérer la production. Standardiser les livrables. Libérer du temps pour le client.",
+      pitch: "Accélérer la production.\nStandardiser les livrables.\nLibérer du temps pour le client.",
       resultats: [
         "Gagner 6-8h par semaine",
         "Améliorer la qualité des livrables",
@@ -41,7 +41,7 @@ export default function OffresPage() {
     {
       titre: "Parcours Expert",
       duree: "2 jours",
-      pitch: "Construire vos workflows IA. Sécuriser l'usage des données. Installer des pratiques durables.",
+      pitch: "Construire vos workflows IA.\nSécuriser l'usage des données.\nInstaller des pratiques durables.",
       resultats: [
         "Workflows personnalisés et automatisés",
         "Standardisation et conformité RGPD",
@@ -192,7 +192,7 @@ export default function OffresPage() {
                     {formation.duree}
                   </span>
                 </div>
-                <p className="text-[15px] leading-6 text-[var(--ink)]/80 mb-5">
+                <p className="text-[15px] leading-6 text-[var(--ink)]/80 mb-5 whitespace-pre-line">
                   {formation.pitch}
                 </p>
                 
@@ -219,12 +219,6 @@ export default function OffresPage() {
                       className="block text-center rounded-md bg-[var(--gold)] hover:opacity-90 px-4 py-2.5 text-sm font-medium text-white transition-all duration-200"
                     >
                       {formation.ctaPrimary.text}
-                    </Link>
-                    <Link
-                      href={formation.ctaSecondary.href}
-                      className="block text-center rounded-md border border-[var(--gold)] hover:bg-[#F6F7F8] px-4 py-2.5 text-sm font-medium text-[var(--night)] transition-all duration-200"
-                    >
-                      {formation.ctaSecondary.text}
                     </Link>
                   </div>
                 </div>
