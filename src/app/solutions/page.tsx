@@ -52,7 +52,7 @@ export default function SolutionsPage() {
       </section>
 
       {/* FORMATION SECTION */}
-      <section className="bg-[var(--paper)] py-20 px-6">
+      <section id="formation" className="bg-[var(--paper)] py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Content */}
@@ -71,7 +71,9 @@ export default function SolutionsPage() {
                 Formation
               </h2>
               <p className="text-lg text-[var(--ink)]/80 mb-6 leading-relaxed">
-                Comprendre, apprendre, appliquer. Des ateliers concrets pour maîtriser l'usage de l'IA dans votre quotidien.
+                Comprendre, apprendre, appliquer.
+                <br />
+                Des ateliers concrets pour maîtriser l'usage de l'IA dans votre quotidien.
               </p>
             </motion.div>
 
@@ -90,7 +92,7 @@ export default function SolutionsPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--gold)] mt-1 flex-shrink-0">◆</span>
-                  <span className="text-[var(--ink)]/80">Gagner jusqu'à 7 heures par semaine sur vos tâches répétitives.</span>
+                  <span className="text-[var(--ink)]/80">Gagner jusqu'à 7 heures par semaine sur vos tâches répétitives et chronophages.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--gold)] mt-1 flex-shrink-0">◆</span>
@@ -99,16 +101,16 @@ export default function SolutionsPage() {
               </ul>
               <div className="flex flex-col gap-3">
                 <Link
-                  href="/#offres"
+                  href="/contact?topic=formation"
                   className="block text-center px-6 py-3 bg-[var(--gold)] hover:bg-[var(--gold)]/90 text-white font-medium rounded-lg transition-all duration-200"
                 >
-                  Voir les formats de formation
+                  Réserver une session
                 </Link>
                 <Link
-                  href="/contact?topic=formation"
+                  href="/resultats#formation"
                   className="block text-center px-6 py-3 bg-transparent border border-[var(--gold)]/30 hover:bg-[var(--panel)] text-[var(--ink)] font-medium rounded-lg transition-all duration-200"
                 >
-                  Réserver une session
+                  Voir les résultats
                 </Link>
               </div>
             </motion.div>
@@ -117,7 +119,7 @@ export default function SolutionsPage() {
       </section>
 
       {/* AUDIT & CONSEIL SECTION */}
-      <section className="bg-gradient-to-br from-[var(--night)] to-[var(--night)]/95 text-white py-20 px-6">
+      <section id="audit-conseil" className="bg-gradient-to-br from-[var(--night)] to-[var(--night)]/95 text-white py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Benefits Card */}
@@ -150,7 +152,7 @@ export default function SolutionsPage() {
                   Demander un audit
                 </Link>
                 <Link
-                  href="/#resultats"
+                  href="/resultats#audit-conseil"
                   className="block text-center px-6 py-3 bg-transparent border border-white/30 hover:bg-white/10 text-white font-medium rounded-lg transition-all duration-200"
                 >
                   Voir des exemples
@@ -174,7 +176,9 @@ export default function SolutionsPage() {
                 Audit & Conseil
               </h2>
               <p className="text-lg text-white/80 mb-6 leading-relaxed">
-                Diagnostiquer, prioriser, optimiser. Un état des lieux précis pour identifier les leviers IA à fort impact.
+                Diagnostiquer, prioriser, optimiser.
+                <br />
+                Un état des lieux précis pour identifier les leviers IA à fort impact.
               </p>
             </motion.div>
           </div>
@@ -182,7 +186,7 @@ export default function SolutionsPage() {
       </section>
 
       {/* OUTILS IA SUR MESURE SECTION */}
-      <section className="bg-white py-20 px-6">
+      <section id="outils-ia" className="bg-white py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Content */}
@@ -204,7 +208,7 @@ export default function SolutionsPage() {
               <p className="text-lg text-[var(--ink)]/80 mb-6 leading-relaxed">
                 Concevoir, intégrer, sécuriser.
                 <br />
-                Nous développons des outils IA internes adaptés à vos besoins réels.
+                Nous développons des outils IA internes adaptés à vos besoins.
               </p>
             </motion.div>
 
@@ -232,16 +236,16 @@ export default function SolutionsPage() {
               </ul>
               <div className="flex flex-col gap-3">
                 <Link
-                  href="/#contact"
+                  href="/contact"
                   className="block text-center px-6 py-3 bg-[var(--gold)] hover:bg-[var(--gold)]/90 text-white font-medium rounded-lg transition-all duration-200"
                 >
-                  Découvrir nos outils
+                  Parler d'un besoin
                 </Link>
                 <Link
-                  href="/contact?topic=outil"
+                  href="/resultats#outils-ia"
                   className="block text-center px-6 py-3 bg-transparent border border-[var(--gold)]/30 hover:bg-[var(--panel)] text-[var(--ink)] font-medium rounded-lg transition-all duration-200"
                 >
-                  Parler d'un besoin
+                  Découvrir nos outils
                 </Link>
               </div>
             </motion.div>

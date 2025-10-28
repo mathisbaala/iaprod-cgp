@@ -14,22 +14,22 @@ export default function ResultatsPage() {
     {
       valeur: "+8 à 12h",
       unite: "/ semaine",
-      description: "libérées par collaborateur grâce à l'automatisation des tâches administratives"
+      description: "libérées par collaborateur grâce à l'automatisation des tâches administratives."
     },
     {
       valeur: "+25%",
       unite: "de temps client",
-      description: "récupéré sur les activités à forte valeur"
+      description: "récupéré sur les activités de conseil, à forte valeur ajoutée."
     },
     {
       valeur: "0 erreur",
       unite: "réglementaire",
-      description: "détectée dans les livrables IA grâce à nos process conformes"
+      description: "détectée dans les livrables IA grâce à nos process de vérification rigoureux."
     },
     {
-      valeur: "3 à 6 mois",
-      unite: "ROI",
-      description: "pour atteindre le retour sur investissement sur l'ensemble des projets IAprod"
+      valeur: "3 semaines",
+      unite: "de déploiement",
+      description: "pour des premiers résultats mesurables et une montée en compétence rapide."
     }
   ];
 
@@ -137,7 +137,7 @@ export default function ResultatsPage() {
       </section>
 
       {/* FORMATION RESULTS */}
-      <section className="bg-white py-20 px-6">
+      <section id="formation" className="bg-white py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <motion.div
             className="text-center mb-16"
@@ -211,7 +211,7 @@ export default function ResultatsPage() {
       </section>
 
       {/* AUDIT & CONSEIL RESULTS */}
-      <section className="bg-gradient-to-br from-[var(--night)] to-[var(--night)]/95 text-white py-20 px-6">
+      <section id="audit-conseil" className="bg-gradient-to-br from-[var(--night)] to-[var(--night)]/95 text-white py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <motion.div
             className="text-center mb-16"
@@ -285,7 +285,7 @@ export default function ResultatsPage() {
       </section>
 
       {/* OUTILS IA SUR MESURE RESULTS */}
-      <section className="bg-white py-20 px-6">
+      <section id="outils-ia" className="bg-white py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <motion.div
             className="text-center mb-16"

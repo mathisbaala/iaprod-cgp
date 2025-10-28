@@ -8,25 +8,25 @@ export default function Resultats() {
       titre: "Gagnez jusqu'à 7 heures par semaine sur l'administratif",
       description: "Automatisez la rédaction de documents, la prise de notes et la préparation de rendez-vous.",
       cta: "Voir comment",
-      href: "/#solutions",
+      href: "/resultats",
     },
     {
       titre: "Standardisez vos documents et vos échanges clients",
       description: "Unifiez votre communication et réduisez les erreurs grâce à des modèles intelligents.",
       cta: "Structurer mes process",
-      href: "/#solutions",
+      href: "/resultats",
     },
     {
       titre: "Fiabilisez vos analyses et votre veille réglementaire",
       description: "Restez à jour sans effort avec des outils qui trient, analysent et alertent.",
       cta: "Voir les outils",
-      href: "/#solutions",
+      href: "/resultats",
     },
     {
       titre: "Plus de clarté, de rigueur et de réactivité côté client",
       description: "Apportez des réponses rapides et précises qui renforcent la confiance.",
       cta: "En parler",
-      href: "/contact?topic=qualite",
+      href: "/resultats",
     },
   ];
 
